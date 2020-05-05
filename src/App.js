@@ -16,7 +16,7 @@ class App extends Component {
   return (
     <div>
       <h1>Un repetidor</h1>
-      <input type="text" name='entrie' placeholder="Empieza a escribir algo" onChange={(event) => this.repetidor(event)} />
+      <input type="text" placeholder="Empieza a escribir algo" onChange={(event) => this.repetidor(event)} />
       <p className="repeater">{this.state.repetidor}</p>
     </div>
   );
